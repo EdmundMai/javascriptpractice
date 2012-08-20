@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>lab 5 // user list</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')</script>
+	<script src="js/userlist.js"></script>
+</head>
+<body>
+	
+	<div id="wrapper">
+	
+		<h1>lab 5 // user list</h1>
+		
+		<form id="add_user" action="#" method="post">
+			<label for="user_name">Add a new user:</label>
+			<input type="text" id="user_name" name="user_name" placeholder="username">
+			<input type="submit" value="(+) add">
+		</form><!-- #add_user -->
+		
+		<form id="remove_user" action="#" method="post">
+			<label for="user_num">Remove user:</label>
+			<input type="text" id="user_num" name="user_num" placeholder="number">
+			<input type="submit" value="(-) remove">
+		</form><!-- #remove_user -->
+		
+		<ul id="user_list"></ul><!-- #user_list -->
+		
+	</div><!-- #wrapper -->
+	
+</body>
+</html>
